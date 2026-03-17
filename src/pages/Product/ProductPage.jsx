@@ -1188,7 +1188,7 @@ const RelatedCard = memo(function RelatedCard({ product }) {
         </Link>
 
         {product.tagline && (
-          <p className="font-medium text-[0.7rem] text-gray-400 mb-2 line-clamp-1 min-h-[16px]">
+          <p className="font-medium text-[0.7rem] text-gray-700 mb-2 line-clamp-1 min-h-[16px]">
             {product.tagline}
           </p>
         )}
@@ -1198,7 +1198,7 @@ const RelatedCard = memo(function RelatedCard({ product }) {
             ₹{product.currentPrice?.toLocaleString('en-IN')}
           </span>
           {product.originalPrice && (
-            <span className="font-medium text-[0.7rem] text-gray-300 line-through">
+            <span className="font-medium text-[0.7rem] text-gray-500 line-through">
               ₹{product.originalPrice?.toLocaleString('en-IN')}
             </span>
           )}

@@ -1180,7 +1180,7 @@ const ProductCard = memo(({ product }) => {
         </div>
 
         <div className="min-h-[1.1rem] mb-2">
-          <p className="text-gray-400 text-[0.68rem] sm:text-[0.72rem] font-medium line-clamp-1">
+          <p className="text-gray-700 text-[0.68rem] sm:text-[0.72rem] font-medium line-clamp-1">
             {tagline || 'No description available'}
           </p>
         </div>
@@ -1191,7 +1191,7 @@ const ProductCard = memo(({ product }) => {
               ₹{currentPrice?.toLocaleString('en-IN')}
             </span>
             {originalPrice > currentPrice && (
-              <span className="text-gray-300 line-through text-[0.68rem] sm:text-[0.72rem] font-medium">
+              <span className="text-gray-500 line-through text-[0.68rem] sm:text-[0.72rem] font-medium">
                 ₹{originalPrice?.toLocaleString('en-IN')}
               </span>
             )}

@@ -174,7 +174,7 @@ export default function BrandDeals() {
                     </p>
 
                     {/* Expiry */}
-                    <p className="text-gray-400 text-xs mb-5 line-clamp-1 min-h-[16px]">
+                    <p className="text-gray-500 text-xs mb-5 line-clamp-1 min-h-[16px]">
                       {brand.expiry}
                     </p>
 

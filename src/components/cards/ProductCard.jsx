@@ -41,7 +41,7 @@ export default function ProductCard({ product }) {
         </div>
 
         <div className="min-h-[1.25rem] mb-3">
-          <p className="text-gray-400 text-[0.72rem] font-medium line-clamp-1">
+          <p className="text-gray-700 text-[0.72rem] font-medium line-clamp-1">
             {tagline || 'No description available'}
           </p>
         </div>
@@ -52,7 +52,7 @@ export default function ProductCard({ product }) {
               ₹{currentPrice?.toLocaleString('en-IN')}
             </span>
             {originalPrice && (
-              <span className="text-gray-300 line-through text-[0.72rem] font-medium">
+              <span className="text-gray-500 line-through text-[0.72rem] font-medium">
                 ₹{originalPrice?.toLocaleString('en-IN')}
               </span>
             )}
