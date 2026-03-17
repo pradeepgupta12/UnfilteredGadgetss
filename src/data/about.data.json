@@ -1,0 +1,57 @@
+{
+  "site": {
+    "name": "TechDeals",
+    "tagline": "Redefining Value in Premium Tech."
+  },
+  "hero": {
+    "heading_line1": "Redefining Value in",
+    "heading_line2": "Premium Tech.",
+    "description": "We believe everyone deserves access to the best electronic devices without the premium price tag. Discover how we source and curate the world's best tech deals.",
+    "background_color": "#1a2e2a",
+    "heading2_color": "#e8591a"
+  },
+  "mission": {
+    "label": "OUR MISSION",
+    "heading": "Making High-End Technology Accessible to Everyone",
+    "description": "Our commitment is simple: bridge the gap between innovation and affordability. By leveraging direct partnerships with manufacturers and mastering the certified refurbishment process, we ensure quality is never compromised for price.",
+    "badge_text": "Trustworthy deals, verified for performance.",
+    "badge_icon": "shield",
+    "badge_color": "#e8591a",
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
+    "image_alt": "Premium laptop on dark background"
+  },
+  "why_choose": {
+    "heading": "Why Choose TechDeals?",
+    "subheading": "We've built our reputation on three core pillars that guarantee a superior shopping experience for our community.",
+    "cards": [
+      {
+        "id": 1,
+        "icon": "certified",
+        "icon_color": "#e8591a",
+        "title": "Certified Refurbished",
+        "description": "Every pre-owned device undergoes a rigorous 50-point inspection to ensure it performs like new."
+      },
+      {
+        "id": 2,
+        "icon": "price",
+        "icon_color": "#e8591a",
+        "title": "Price Match Guarantee",
+        "description": "Found a better deal elsewhere? We'll match it. We are dedicated to offering the lowest prices on the market."
+      },
+      {
+        "id": 3,
+        "icon": "shipping",
+        "icon_color": "#e8591a",
+        "title": "Fast & Free Shipping",
+        "description": "Get your tech when you need it. We offer free 2-day shipping on all orders over $99 nationwide."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to find your next upgrade?",
+    "subheading": "Join over 100,000 smart shoppers who never pay full price for technology.",
+    "button_text": "Browse Today's Deals",
+    "button_link": "#",
+    "background_color": "#e8591a"
+  }
+}
