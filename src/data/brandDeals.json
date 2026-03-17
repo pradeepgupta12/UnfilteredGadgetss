@@ -1,0 +1,69 @@
+
+{
+  "brands": [
+    {
+      "id": 1,
+      "name": "Amazon",
+      "logoImage": "https://pngimg.com/uploads/amazon/amazon_PNG6.png",
+      "offer": "Up to 70% Off",
+      "rewards": "Extra 5% cashback on electronics",
+      "expiry": "Limited time offer",
+      "dealLink": "/deals/amazon"
+    },
+    {
+      "id": 2,
+      "name": "Flipkart",
+      "logoImage": "https://i.pinimg.com/736x/ac/5f/ec/ac5fec5b6c23dd5e548629edb91e99b8.jpg",
+      "offer": "Min 40% Off",
+      "rewards": "Up to ₹10,000 off on smartphones",
+      "expiry": "Ends in 3 days",
+      "dealLink": "/deals/flipkart"
+    },
+    {
+      "id": 3,
+      "name": "Croma",
+      "logoImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzE5ufezkn-9Wc9HGRr3cIvSJO2qULSBRmpg&s",
+      "offer": "Special Diwali Offers",
+      "rewards": "Up to ₹5000 off on electronics",
+      "expiry": "Valid till Diwali",
+      "dealLink": "/deals/croma"
+    },
+    {
+      "id": 4,
+      "name": "Reliance Digital",
+      "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Reliance_Digital.svg/960px-Reliance_Digital.svg.png",
+      "offer": "Big Sale on Gadgets",
+      "rewards": "Extra 10% off on accessories",
+      "expiry": "Sale ends in 5 days",
+      "dealLink": "/deals/reliance"
+    },
+    
+    {
+      "id": 5,
+      "name": "Tata CLiQ",
+      "logoImage": "https://1000logos.net/wp-content/uploads/2021/05/Tata-Cliq-logo.png",
+      "offer": "Big Electronics Sale",
+      "rewards": "No cost EMI available",
+      "expiry": "Offer ends 31st March",
+      "dealLink": "/deals/tatacliq"
+    },
+    {
+      "id": 6,
+      "name": "Bajaj Electronics",
+      "logoImage": "https://vectorseek.com/wp-content/uploads/2023/10/Bajaj-Electricals-Wordmark-Logo-Vector.svg-.png",
+      "offer": "Weekend Dhamaka",
+      "rewards": "Up to 30% off on smart TVs",
+      "expiry": "Weekend only",
+      "dealLink": "/deals/bajaj"
+    },
+    {
+      "id": 7,
+      "name": "Myntra",
+      "logoImage": "https://1000logos.net/wp-content/uploads/2022/08/Myntra-Logo.png",
+      "offer": "Mobile Mania",
+      "rewards": "Extra exchange bonus",
+      "expiry": "Hurry! Limited stock",
+      "dealLink": "/deals/poorvika"
+    }
+  ]
+}

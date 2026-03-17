@@ -10,7 +10,7 @@ export default function CuratedCollections() {
   const { data: collections, loading } = useFetch(() => cmsService.getCollections(), [])
 
   return (
-    <SectionWrapper bg="bg-white">
+    <SectionWrapper bg="bg-gray-100">
       <SectionHeader
         title="Curated Collections"
         subtitle="Kits built for your specific lifestyle, tested in real scenarios."

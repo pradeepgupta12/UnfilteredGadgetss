@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { staggerItem } from "../../utils/animations.js";
 
 export default function BlogCard({ blog }) {
-  const { title, image, category, categoryColor, author, date, slug } = blog;
+  const { title, excerpt, image, category, categoryColor, author, date, slug } = blog;
 
   return (
     <motion.a
@@ -31,13 +31,17 @@ export default function BlogCard({ blog }) {
 
       {/* Content */}
       <div className="p-4 min-h-[120px] flex flex-col justify-between">
-        <p className="font-medium text-sm text-gray-900 leading-relaxed mb-3 line-clamp-3">
+        <p className=" text-base text-gray-900 font-bold leading-relaxed mb-3 line-clamp-2 ">
           {title}
         </p>
 
-        <div className="flex items-center justify-between">
+         <p className="font-medium text-sm text-gray-800 leading-relaxed mb-3 line-clamp-3 ">
+          {excerpt}
+        </p>
+
+        <div className="flex items-center justify-between min-h-8">
           <span className="text-xs text-gray-400">
-            By {typeof author === "object" ? author.name : author} • {date}
+            By {typeof author === "object" ? author.name : author} • 
           </span>
 
           <span className="text-xs text-orange-500 font-semibold">
