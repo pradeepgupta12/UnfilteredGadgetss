@@ -29,7 +29,7 @@ export function SectionHeader({ title, subtitle, viewAllHref, viewAllLabel = 'Vi
   return (
     <div className="flex items-start justify-between mb-8">
       <div>
-        <h2 className="font-heading text-2xl md:text-3xl font-700 text-black">{title}</h2>
+        <h2 className="font-heading text-2xl md:text-3xl font-700 text-black font-bold">{title}</h2>
         {subtitle && <p className="text-[#575555] text-sm mt-1 font-body">{subtitle}</p>}
       </div>
       {viewAllHref && (

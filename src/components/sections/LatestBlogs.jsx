@@ -14,7 +14,7 @@ export default function LatestBlogs() {
     <section className="py-14 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
         <div className="flex items-start justify-between mb-8">
-          <h2 className="font-heading text-2xl md:text-3xl font-700 text-black uppercase tracking-wide">
+          <h2 className="font-heading text-2xl md:text-3xl font-700 text-black uppercase tracking-wide font-bold">
             Latest Blogs
           </h2>
           <a href="/blogs" className="text-primary text-sm font-body font-500 hover:text-primary-light transition-colors mt-1">

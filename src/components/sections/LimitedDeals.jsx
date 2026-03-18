@@ -126,7 +126,7 @@ export default function LimitedDeals() {
     <SectionWrapper bg="bg-white">
       <div className="flex items-start justify-between mb-8">
         <div>
-          <h2 className="font-heading text-2xl md:text-3xl font-700 text-black">Limited Time Deals</h2>
+          <h2 className="font-heading text-2xl md:text-3xl font-700 font-bold text-black">Limited Time Deals</h2>
         </div>
         <Countdown />
       </div>

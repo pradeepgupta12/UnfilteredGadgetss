@@ -1,9 +1,10 @@
+// components/cards/ProductCard.jsx
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { staggerItem } from '../../utils/animations.js'
 
 export default function ProductCard({ product }) {
-  const { slug, name, tagline, image, currentPrice, originalPrice, discount, savingsLabel, dealLink } = product
+  const { slug, name, tagline, image, currentPrice, originalPrice, discount, savingsLabel } = product
 
   return (
     <motion.div
@@ -41,7 +42,7 @@ export default function ProductCard({ product }) {
         </div>
 
         <div className="min-h-[1.25rem] mb-3">
-          <p className="text-gray-700 text-[0.72rem] font-medium line-clamp-1">
+          <p className="text-gray-400 text-[0.72rem] font-medium line-clamp-1">
             {tagline || 'No description available'}
           </p>
         </div>
@@ -52,7 +53,7 @@ export default function ProductCard({ product }) {
               ₹{currentPrice?.toLocaleString('en-IN')}
             </span>
             {originalPrice && (
-              <span className="text-gray-500 line-through text-[0.72rem] font-medium">
+              <span className="text-gray-300 line-through text-[0.72rem] font-medium">
                 ₹{originalPrice?.toLocaleString('en-IN')}
               </span>
             )}
@@ -68,7 +69,7 @@ export default function ProductCard({ product }) {
       {/* Grab Deal */}
       <div className="px-4 pb-4 mt-auto">
         <a
-          href={dealLink}
+          href='/shop'
           target="_blank"
           rel="noopener noreferrer"
           onClick={(e) => e.stopPropagation()}

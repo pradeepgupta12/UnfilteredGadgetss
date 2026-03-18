@@ -37,14 +37,14 @@ export default function DealCard({ deal }) {
 
         {/* Name */}
         <div className="min-h-[2.5rem] mb-1.5">
-          <h3 className="font-bold text-gray-900 text-[0.9rem] leading-snug line-clamp-2 group-hover:text-[#e8591a] transition-colors">
+          <h3 className="font-bold text-gray-900 text-[18px] leading-snug line-clamp-2 group-hover:text-[#e8591a] transition-colors">
             {name}
           </h3>
         </div>
 
         {/* Tagline */}
         <div className="min-h-[1.25rem] mb-3">
-          <p className="text-gray-700 text-[0.72rem] font-medium line-clamp-1">
+          <p className="text-gray-700 text-[14px] font-medium line-clamp-1">
             {tagline || 'No description available'}
           </p>
         </div>
