@@ -414,6 +414,7 @@ export default function HeroSection() {
     "/image1.png",
     "/image2.png", 
     "/image3.png"
+    
   ])
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 

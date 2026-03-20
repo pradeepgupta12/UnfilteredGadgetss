@@ -41,3 +41,5 @@ export default function CuratedCollections() {
     </SectionWrapper>
   )
 }
+
+
